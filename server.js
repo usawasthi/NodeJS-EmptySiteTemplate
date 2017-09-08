@@ -2,7 +2,7 @@ var http = require('http');
 var express = require('./node_modules/express');
 var app = express();
 
-var formidable = require('formidable');
+var formidable = require('./node_modules/formidable');
 
 http.createServer(function (req, res) {
   if (req.url == '/fileupload') {
