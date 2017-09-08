@@ -1,5 +1,5 @@
 var http = require('http');
-var express = require('node_modules/express');
+var express = require('./node_modules/express');
 var app = express();
 
 http.createServer(function (req, res) {
